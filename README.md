@@ -12,7 +12,7 @@
 
 ## Using the app
 
-The app is available at [https://macrodroid-wc.web.app/](https://macrodroid-wc.web.app/). It will guide you through its usage.
+The app is available at [this url](webconmd.netlify.app). It will guide you through its usage.
 
 ## Features
 
