@@ -12,7 +12,7 @@
 
 ## Using the app
 
-The app is available at [this url](webconmd.netlify.app). It will guide you through its usage.
+The app is available at [this url](mcwd.qzz.io). It will guide you through its usage.
 
 ## Features
 
@@ -35,7 +35,7 @@ The app is available at [this url](webconmd.netlify.app). It will guide you thro
 
 - Download the source code
 
-Either run `git clone https://github.com/FrameXX/macrodroid-web-controller.git` in you terminal if you have [Git](https://git-scm.com/) installed or download the source code zip from github and extract it to the project folder that name however you like.
+Either run `git clone https://github.com/Futuristicsearch/web-controller.git` in you terminal if you have [Git](https://git-scm.com/) installed or download the source code zip from github and extract it to the project folder that name however you like.
 
 - Install dependencies
 
