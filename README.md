@@ -12,7 +12,7 @@
 
 ## Using the app
 
-The app is available at [this url](mcwd.qzz.io). It will guide you through its usage.
+The app is available at [this url](mdwc.qzz.io). It will guide you through its usage.
 
 ## Features
 
