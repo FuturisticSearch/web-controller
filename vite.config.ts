@@ -4,11 +4,12 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  root: "src",
   plugins: [
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["./src/assets/img/*", "./src/assets/other/*"],
+      includeAssets: ["./assets/img/*", "./assets/other/*"],
       manifest: {
         name: "MacroDroid WC",
         short_name: "MDWC",
@@ -17,12 +18,12 @@ export default defineConfig({
           "Single page app that serves as a remote control to trigger MacroDroid actions on remote Android devices connected to internet and running the MacroDroid app with ease.",
         icons: [
           {
-            src: "./src/assets/img/favicon.png",
+            src: "./assets/img/favicon.png",
             sizes: "128x128",
             type: "image/png",
           },
           {
-            src: "./src/assets/img/favicon.svg",
+            src: "./assets/img/favicon.svg",
             type: "image/svg+xml",
           },
         ],
@@ -34,15 +35,17 @@ export default defineConfig({
     }),
   ],
   build: {
+    outDir: "../dist",
+    emptyOutDir: true,
     assetsInlineLimit: 0,
     rollupOptions: {
       input: {
-        app: "./src/index.html",
+        app: "./index.html",
       },
     },
   },
   server: {
-    open: "./src/index.html",
+    open: "./index.html",
   },
-  publicDir: "./src/assets/public",
+  publicDir: "./assets/public",
 });
