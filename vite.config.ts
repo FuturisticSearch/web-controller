@@ -38,11 +38,6 @@ export default defineConfig({
     outDir: "../dist",
     emptyOutDir: true,
     assetsInlineLimit: 0,
-    rollupOptions: {
-      input: {
-        app: "./index.html",
-      },
-    },
   },
   server: {
     open: "./index.html",
