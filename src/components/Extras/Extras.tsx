@@ -71,7 +71,7 @@ export function R_Extras(props: ExtrasProps) {
       <footer>
         <R_ExternalLink
           iconId="github"
-          href="https://github.com/futuristicsearch/web-controller"
+          href="https://www.youtube.com/embed/dQw4w9WgXcQ"
           title="Source code"
         >
           Source code
